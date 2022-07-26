@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #232526;  
+  background: -webkit-linear-gradient(to right, #414345, #232526);  
+  background: linear-gradient(to right, #414345, #232526); 
+}
+
+
+#title-and-img{
+  display: flex;
+  flex-direction: column;
+}
+
+#title-and-img h1{
+  font-size: 15vh;
+  color:#fbd693;
+  margin-bottom: 8vh;
+}
+
+.lofi-girl{
+  width: 30vh;
+  margin-bottom: 15vh;
+  height: auto;
+  align-self: center;
+}
+
+.buttons{
+  margin-top: 2vh;
+  width: 30vw;
+  height: 4vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.a-button{
+/*   margin-top: 20vh; */
+  border: 2px solid #fbd693;
+  border-radius: 10px;
+  color: #fbd693;
+  text-decoration: none;
+  text-align: center;
+  padding: 1vh 1.5vw 4vh 1.5vw;
+  font-size: 3vh;
+  
+}
+.a-button:hover{
+  border:2px solid #0078AA;
+  background-color:#fbd693;
+  color: #0078AA;
+}
+
+/* -------------------About page styles ------------------------ */
+
+#parent{
+  height: 100vh;
+  background: #232526;  
+  background: -webkit-linear-gradient(to right, #414345, #232526);  
+  background: linear-gradient(to right, #414345, #232526); 
+  color: #fbd693;
+  display: flex;
+  flex-direction: column;
+   align-items: center; 
+   justify-content: center;
+}
+
+.channel-information{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.channel-information h1{
+  margin-bottom: 3vh;
+  font-size: 10vh;
+}
+
+.channel-information p{
+  width: 40vw;
+  margin-bottom: 10vh;
+  font-size: 4vh;
+  line-height: 6vh;
+}
+
+#lofi-girl-contacts{
+  margin-top: 20vh;
+}
+
+span{
+  font-size: 4vh;
+  margin-bottom: 2vh;
+}
+
+/* ------------------ work styles ---------------- */
+
+.work{
+  font-size: 40vh;
+}
